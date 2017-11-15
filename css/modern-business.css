@@ -1,0 +1,174 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css?family=Marcellus');
+
+html,
+body {
+    height: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 80%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: 1024px;
+    background-repeat: no-repeat;
+
+}
+
+/* override */
+.carousel{
+position: relative;
+}
+.navbar{
+min-height: 80px;
+background-color: #770708;
+}
+.map-body{
+  text-align: center;
+}
+.navbar-right{
+  padding-top: 10px;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: #fce013 !important;
+    text-shadow: 3px 3px 3px #000;
+    font-size: 18px;
+
+
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #ffffff !important;
+    text-shadow: 3px 3px 3px #000;
+    font-size: 18px;
+
+}
+
+ul.nav li.active a {
+    color: #fce013 !important;
+    text-shadow: 3px 3px 3px #000;
+    font-size: 18px;
+
+
+}
+
+.navbar-brand
+{
+  padding-top: 5px;
+}
+
+
+
+.flags {
+  width: 260px;
+  height: 32px;
+  /* sağa almak için "float: right;" kullanabilirsiniz*/
+  float: left;
+}
+.flags ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  }
+.flags ul li {
+  display: inline;
+}
+
+
+.panel-body{
+  color:#000000;
+  background-image: url('img/ybg.jpg');
+}
+
+h1, h2, h3 {
+font-family: 'Marcellus', serif;
+color: #fce013 !important;
+  text-shadow: 3px 3px 3px #000;
+}
+
+/* end of override */
+
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
